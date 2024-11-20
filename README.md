@@ -1,3 +1,3 @@
 # Heterogeneous_Graph
 updating
-![overview](overview.png)
+<img src="overview.png" style="max-width: 50%; height: auto;" />
