@@ -52,7 +52,7 @@ HGRL-master/multivariate_datasets/
 
 # Easy Train
 
-`python HGRL-master\model\code\train.pytrain.py`
+`python HGRL-master\model\code\train.py`
 
 You may change the dataset by modifying the variable "dataset = ''" in the top of the code "train.py" or use arguments (see train.py).
 
