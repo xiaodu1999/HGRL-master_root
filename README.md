@@ -19,8 +19,8 @@ An implement, updating.
 * or /findsub_sub
 * or /findsub_shape
 * or /findshapshape getting relationship matrix between MTS, subjects, shapelets.
-* To run HGRL-master\bulidgraph.py getting final heterogeneous graph.
-* To run HGRL-master\creatdataset\load_ratio_data.py getting training, validation, and test indexes.
+* To run HGRL-master/bulidgraph.py getting final heterogeneous graph.
+* To run HGRL-master/creatdataset/load_ratio_data.py getting training, validation, and test indexes.
 
 # Prepare for your dataset
 
@@ -28,14 +28,14 @@ For trainning, the following files are required.
 
 **For processed datasets, you can find in:**
 
-sub_shapelets-master\demo\multivariate_datasets_supervise\dataset.npy
+sub_shapelets-master/demo/multivariate_datasets_supervise/dataset.npy
 
 **For all processed data, you can find in:**
 
 HGRL-master/multivariate_datasets/
 
 * ----datasets_dtw/dataset.npy               // the dtw similarity matrix
-* ----finalmatrix\/dataset.npy   // final heterogeneous graph
+* ----finalmatrix//dataset.npy   // final heterogeneous graph
 * ---- map/dataset                     // the index of the training, validation, testing, node
 * ---- representation/best_rep_dadaset.pt         // the learned MTS representation
 * ---- shape_shape/dataset_shapshape.npy       // the relationship between shapelets
@@ -48,7 +48,7 @@ HGRL-master/multivariate_datasets/
 
 # Easy Train
 
-`python HGRL-master\model\code\train.py`
+`python HGRL-master/HGRL-master/model/code/train.py`
 
 You may change the dataset by modifying the variable "dataset = ''" in the top of the code "train.py" or use arguments (see train.py).
 
