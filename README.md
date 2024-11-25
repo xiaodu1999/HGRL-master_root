@@ -14,18 +14,17 @@ An implement.
 
 # Prepare data
 
-To run TCSA-master/representationlearn.py to get MTS representations and DTW matrix.
-To run sub_shapelets-master/main_findshapelets.py getting shaplets.
-To run sub_shapelets-master/findsubfeature.py getting subject features.
-To run sub_shapelets-master/findtime_sub.py
-or /findtime_sub
-or /findtime_shape
-or /findsub_sub
-or /findsub_shape
-or /findshapshape getting relationship matrix between MTS, subjects, shapelets.
-To run HGRL-master\bulidgraph.py getting final heterogeneous graph.
-
-To run HGRL-master\creatdataset\load_ratio_data.py getting training, validation, and test indexes.
+* To run TCSA-master/representationlearn.py to get MTS representations and DTW matrix.
+* To run sub_shapelets-master/main_findshapelets.py getting shaplets.
+* To run sub_shapelets-master/findsubfeature.py getting subject features.
+* To run sub_shapelets-master/findtime_sub.py
+* or /findtime_sub
+* or /findtime_shape
+* or /findsub_sub
+* or /findsub_shape
+* or /findshapshape getting relationship matrix between MTS, subjects, shapelets.
+* To run HGRL-master\bulidgraph.py getting final heterogeneous graph.
+* To run HGRL-master\creatdataset\load_ratio_data.py getting training, validation, and test indexes.
 
 # Prepare for your own dataset
 
@@ -38,17 +37,18 @@ sub_shapelets-master\demo\multivariate_datasets_supervise\dataset.npy
 **For all processed data, you can find in:**
 
 HGRL-master/multivariate_datasets/
-----datasets_dtw/dataset.npy               // the dtw similarity matrix
-----finalmatrix\/dataset.npy   // final heterogeneous graph
----- map/dataset                     // the index of the training, validation, testing, node
----- representation/best_rep_dadaset.pt         // the learned MTS representation
----- shape_shape/dataset_shapshape.npy       // the relationship between shapelets
----- shapelets/dataset_shaplets.npy       // the learned shapelets
----- sub_shape/dataset_subshape.npy       // the relationship between subjects and shapelets
----- sub_sub/dataset_subsub.npy       // the relationship between subjects
----- subject_feature/dataset_subfeature.npy       // the learned subject label features
----- time_shape/dataset_timeshape.npy       // the relationship between MTS and shapelets
----- time_sub/dataset_timesub.npy       // the relationship between time and subjects
+
+* ----datasets_dtw/dataset.npy               // the dtw similarity matrix
+* ----finalmatrix\/dataset.npy   // final heterogeneous graph
+* ---- map/dataset                     // the index of the training, validation, testing, node
+* ---- representation/best_rep_dadaset.pt         // the learned MTS representation
+* ---- shape_shape/dataset_shapshape.npy       // the relationship between shapelets
+* ---- shapelets/dataset_shaplets.npy       // the learned shapelets
+* ---- sub_shape/dataset_subshape.npy       // the relationship between subjects and shapelets
+* ---- sub_sub/dataset_subsub.npy       // the relationship between subjects
+* ---- subject_feature/dataset_subfeature.npy       // the learned subject label features
+* ---- time_shape/dataset_timeshape.npy       // the relationship between MTS and shapelets
+* ---- time_sub/dataset_timesub.npy       // the relationship between time and subjects
 
 # Easy Train
 
@@ -60,6 +60,4 @@ Our datasets can be downloaded from [Google Drive](https://drive.google.com/driv
 
 See the codes for more details.
 
-# Citation
 
-If you make advantage of the HGRL model in your research, please cite the following in your manuscript:
