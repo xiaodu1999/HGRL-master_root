@@ -1,17 +1,12 @@
 # Heterogeneous_Graph
-updating
-
 <img src="overview.png" alt="Overview" width="50%">
-
-An implement.
-
+An implement, updating.
 # Requirements
 
 - Anaconda3 (python 3.8)
 - Pytorch 1.10
 - transformers 4.44.0
   ...
-
 # Prepare data
 
 * To run TCSA-master/representationlearn.py to get MTS representations and DTW matrix.
