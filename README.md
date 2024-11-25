@@ -8,6 +8,17 @@ An implement, updating.
 - Pytorch 1.10
 - transformers 4.44.0
   ...
+
+# Easy Train
+
+`python HGRL-master/HGRL-master/model/code/train.py`
+
+You may change the dataset by modifying the variable "dataset = ''" in the top of the code "train.py" or use arguments (see train.py).
+
+Our datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1-ivwhuy3YSDK_9wUI5ArcvHQubvNH6SZ?usp=drive_link).
+
+See the codes for more details.
+  
 # Prepare data
 
 * To run TCSA-master/representationlearn.py to get MTS representations and DTW matrix.
@@ -46,14 +57,6 @@ HGRL-master/multivariate_datasets/
 * ---- time_shape/dataset_timeshape.npy       // the relationship between MTS and shapelets
 * ---- time_sub/dataset_timesub.npy       // the relationship between time and subjects
 
-# Easy Train
 
-`python HGRL-master/HGRL-master/model/code/train.py`
-
-You may change the dataset by modifying the variable "dataset = ''" in the top of the code "train.py" or use arguments (see train.py).
-
-Our datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1-ivwhuy3YSDK_9wUI5ArcvHQubvNH6SZ?usp=drive_link).
-
-See the codes for more details.
 
 
