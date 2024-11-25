@@ -1,3 +1,0 @@
-print('shapetime', shapetime.shape)#(30, 12)，print('labels_sub', labels_sub.shape)#(30,)，
-里面由两种个体类型。shaptime是时间序列和shapelet的对应关系，30个时间序列，12个shapelet，有对应关系则填充为1；
-labelsub里是每个样本对应的个体信息。我们想建立个体和shapelet的对应关系，也就是得到矩阵维度为2x12
