@@ -22,7 +22,7 @@ An implement, updating.
 * To run HGRL-master\bulidgraph.py getting final heterogeneous graph.
 * To run HGRL-master\creatdataset\load_ratio_data.py getting training, validation, and test indexes.
 
-# Prepare for your own dataset
+# Prepare for your dataset
 
 For trainning, the following files are required.
 
