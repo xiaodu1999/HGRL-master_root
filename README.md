@@ -9,6 +9,9 @@ An implement, updating.
 - transformers 4.44.0
   ...
 
+# Function
+HGRL-master is used to obtain heterogeneous graph and final predictions, TCSA-master is used to obtain MTS representations and similarity graph, and sub_shapelets-master is used to obtain shapelets and sub-matrices of heterogeneous graph.
+
 # Easy Train
 
 `python HGRL-master/HGRL-master/model/code/train.py`
