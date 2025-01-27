@@ -1,6 +1,6 @@
 # Heterogeneous_Graph
 <img src="overview.png" alt="Overview" width="50%">
-An implement, updating.
+An implement, still updating, and a paper being under review.
 
 # Requirements
 
